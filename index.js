@@ -19,17 +19,17 @@ console.log('tail:', tail);
 console.log('middle:', middle);
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  assertEqualObjects: assertEqualObjects,
-  countLetters: countLetters,
-  countOnly: countOnly,
-  eqArrays: eqArrays,
-  eqObjects: eqObjects,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue,
-  map: map,
-  takeUntil: takeUntil,
-  without: without
+  head,
+  tail,
+  middle,
+  assertEqualObjects,
+  countLetters,
+  countOnly,
+  eqArrays
+  eqObjects,
+  findKey,
+  findKeyByValue,
+  map,
+  takeUntil,
+  without
 };
