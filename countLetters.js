@@ -21,7 +21,6 @@ const countLetters = function(sentence) {
   return results;
 };
 
-
 const sentence = "This is a sentence used for assertion";
 const result = countLetters(sentence);
 
